@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package user;
+
+// User message definition
+message User {
+  int32 id = 1;
+  string email = 2;
+  string role = 3;
+  string status = 4;
+  string createdAt = 5;
+  string emailHash = 6;
+  string emailSignature = 7;
+}
+
+// UserList message to hold multiple users
+message UserList {
+  repeated User users = 1;
+  int32 count = 2;
+}
