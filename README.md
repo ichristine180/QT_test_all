@@ -83,7 +83,7 @@ The backend API will be available at `http://localhost:3000`
 
 Alternative commands:
 - `npm start` - Run in production mode
-- `npm run seed` - Seed the database with initial data
+## `npm run seed` - Seed the database with initial data
 
 ### Start the Frontend Development Server
 
